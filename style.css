@@ -1,0 +1,110 @@
+body {
+    font-family: 'baloo bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(gettyimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.left img {
+    width: 90px;
+    filter: invert(80%);
+}
+.left div {
+    line-height: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+.middle {
+    display: block;
+    width: 40%;
+    margin: 39px auto;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: none;
+    color: grey;
+}
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+
+}
+.btn {
+    font-family: 'baloo-bhai', cursive;
+    margin: 0px 9px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(31,30,30);
+}
+.container {
+    border: 2px solid white;
+    margin: 100px 40px;
+    padding: 35px;
+    width: 33%;
+    border-radius: 30px;
+}
+.group input {
+    font-family: 'baloo-bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 380px;
+    padding: 1px;
+    border: 2px solid grey;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.grp {
+    font-family: 'baloo-bhai', cursive;
+    text-align: center;
+    display: inline-block;
+    width: 480px;
+    padding: 2px;
+    margin: 11px auto;
+    font-size: 20px;
+}
+.container h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.photo {
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    margin: 39px auto;
+    top: 150px;
+    right: 1px;
+}
